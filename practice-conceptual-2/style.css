@@ -19,7 +19,7 @@ body {
   justify-content: space-around;
 }
 .navbar {
-  background-color: rgb(75, 102, 111);
+  background-color: #b5b5b5;
   width: 100%;
   padding: 20px;
 }
@@ -32,10 +32,11 @@ ul > li {
 }
 ul a {
   text-decoration: none;
-  color: wheat;
+  color: white;
+  font-weight: bold;
 }
 ul a:hover {
-  color: #ffffff;
+  color: red;
 }
 .bg-primary {
   color: red;
@@ -95,24 +96,36 @@ ul a:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 20px 120px;
 }
 .img {
   width: 50%;
 }
 
 .box {
-  height: 250px;
-  width: 200px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
   padding: 50px;
   color: black;
   background-color: white;
   border-radius: 5px;
 }
-.service-description {
-  width: 50%;
+.box-title {
+  font-size: 18px;
 }
 
+.service-title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.service-description {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.o-list {
+  margin-left: 20px;
+}
 .first-two-box {
   display: flex;
   gap: 15px;
@@ -122,4 +135,37 @@ ul a:hover {
   display: flex;
   gap: 15px;
   margin-top: 15px;
+}
+.author-container {
+  display: flex;
+  align-items: center;
+  /* gap: 80px; */
+  margin-top: 20px;
+}
+.author {
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+}
+.author-part {
+  display: flex;
+  align-items: center;
+  padding-right: 80px;
+  border-right: 2px solid red;
+  gap: 15px;
+}
+.btn-div {
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.more-btn {
+  color: red;
+  border-radius: 30px;
+  font-size: 16px;
+}
+h5 {
+  font-size: 18px;
+}
+.ser {
+  margin-bottom: 20px;
 }
