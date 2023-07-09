@@ -3,3 +3,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  /* background-color: lightgreen; */
+  font-family: sans-serif;
+}
+
+/* Navbar styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar {
+  background-color: rgb(75, 102, 111);
+  width: 100%;
+  padding: 20px;
+}
+.list-all {
+  display: flex;
+  gap: 30px;
+}
+ul > li {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: wheat;
+}
+ul a:hover {
+  color: #ffffff;
+}
+.bg-primary {
+  color: red;
+}
+.banner-title,
+.banner-description {
+  color: #ffffff;
+}
+.banner-description {
+  width: 50%;
+}
+/* banner style */
+.banner-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url('./asset/image/background.jpg');
+  background-position: center;
+  /* background-blend-mode: overlay; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  text-align: center;
+  margin: auto;
+}
