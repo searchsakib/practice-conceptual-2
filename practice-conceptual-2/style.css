@@ -100,6 +100,7 @@ ul a:hover {
 }
 .img {
   width: 50%;
+  margin-top: 30px;
 }
 
 .box {
@@ -113,6 +114,7 @@ ul a:hover {
 }
 .box-title {
   font-size: 18px;
+  text-align: center;
 }
 
 .service-title {
