@@ -44,20 +44,41 @@ ul a:hover {
 .banner-description {
   color: #ffffff;
 }
-.banner-description {
-  width: 50%;
+.banner-title {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1.2;
 }
+.banner-description {
+  font-size: 22px;
+  margin: 25px 0px;
+}
+
 /* banner style */
 .banner-container {
   height: 100vh;
-  width: 100%;
-  background-image: url('./asset/image/background.jpg');
+  background-image: url('./asset/image/background.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
   background-position: center;
-  /* background-blend-mode: overlay; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* flex-direction: column; */
-  text-align: center;
-  margin: auto;
+}
+.btn {
+  font-size: 15px;
+  padding: 18px 29px;
+  border: none;
+  border-radius: 2px;
+}
+.discover {
+  color: white;
+  background-color: red;
+  margin-right: 5px;
+}
+.hire {
+  margin-left: 5px;
 }
