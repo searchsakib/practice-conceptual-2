@@ -244,3 +244,36 @@ h6 {
   width: 80%;
   margin: auto;
 }
+.footer-container {
+  height: 70vh;
+  background-image: url('./asset/image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  /* justify-content: space-evenly; */
+  padding: 20px 120px;
+}
+
+footer li {
+  list-style: none;
+  padding: 6px 0px;
+  font-size: 14px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-description {
+  padding: 10px 0 18px 0;
+}
+.useful-title {
+  padding-bottom: 25px;
+  font-size: 19px;
+}
