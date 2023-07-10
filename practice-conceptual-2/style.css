@@ -201,3 +201,46 @@ h5 {
 h6 {
   font-size: 20px;
 }
+.blog-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.blog-description {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 8px;
+  margin-bottom: 60px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card {
+  height: 400px;
+  width: 320px;
+  border-radius: 6px;
+  box-shadow: 2px 4px 17px rgb(184, 183, 183);
+  margin: 20px;
+  background-color: lightgray;
+}
+.card-title {
+  /* text-align: center; */
+  padding: 8px 7px;
+  font-size: 20px;
+}
+.card-description {
+  padding: 2px 7px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.blog-section {
+  width: 80%;
+  margin: auto;
+}
